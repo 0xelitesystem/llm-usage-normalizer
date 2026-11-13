@@ -107,4 +107,4 @@ This is an independent tool. It is not affiliated with or endorsed by Anthropic,
 
 ## License
 
-MIT. Copyright (c) 2026 0xelitesystem.
+MIT. Copyright (c) 2026 RBL Industries LLC.
