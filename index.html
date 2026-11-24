@@ -302,7 +302,7 @@ function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
 
 /* Find the usage object inside whatever was pasted. */
 function locate(doc) {
-  if (Array.isArray(doc)) { return { err: "This is an array. Several usage objects (for example streaming fragments) are out of scope for this version; paste one response or one usage object. To merge a stream, see https://github.com/0xelitesystem/llm-stream-inspector" }; }
+  if (Array.isArray(doc)) { return { err: "This is an array. Several usage objects (for example streaming fragments) are out of scope for this version; paste one response or one usage object. To merge a stream, see https://github.com/0xelitesystem/llm-sse-dump-reassembler" }; }
   if (!isObj(doc)) { return { err: "Paste a JSON object: a full response, or its usage object." }; }
   if (isObj(doc.usageMetadata)) { return { usage: doc.usageMetadata, path: "usageMetadata", hint: "gemini" }; }
   if (isObj(doc.response) && isObj(doc.response.usage)) { return { usage: doc.response.usage, path: "response.usage", hint: "responses" }; }

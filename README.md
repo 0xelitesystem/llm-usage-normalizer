@@ -41,7 +41,7 @@ Anthropic also gets an ITPM line, `input_tokens + cache_creation_input_tokens`, 
 - **You are reviewing a gateway that maps one provider's usage onto another's.** Run the same response through both readings and check which sum the gateway emits.
 - **You need a cost with your own negotiated rates.** Enter them in the cost panel. The page multiplies, it never guesses a price.
 
-Streaming fragments (several usage objects) are out of scope for this version. To merge a stream first, see https://github.com/0xelitesystem/llm-stream-inspector.
+Streaming fragments (several usage objects) are out of scope for this version. To merge a stream first, see https://github.com/0xelitesystem/llm-sse-dump-reassembler.
 
 ## Why this exists
 
@@ -102,7 +102,7 @@ This is an independent tool. It is not affiliated with or endorsed by Anthropic,
 ## Related
 
 - https://github.com/0xelitesystem/prompt-cache-inspector
-- https://github.com/0xelitesystem/llm-stream-inspector
+- https://github.com/0xelitesystem/llm-sse-dump-reassembler
 - https://github.com/0xelitesystem/token-cost-estimator
 
 ## License
