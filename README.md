@@ -103,7 +103,7 @@ This is an independent tool. It is not affiliated with or endorsed by Anthropic,
 
 - https://github.com/0xelitesystem/prompt-cache-inspector
 - https://github.com/0xelitesystem/llm-sse-dump-reassembler
-- https://github.com/0xelitesystem/token-cost-estimator
+- https://github.com/0xelitesystem/custom-rate-token-cost
 
 ## License
 
